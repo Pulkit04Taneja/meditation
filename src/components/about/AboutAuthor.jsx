@@ -70,7 +70,7 @@ export default function AboutAuthor() {
                                 alt="Meditation practice"
                                 fill
                                 sizes="(max-width: 768px) 100vw, 500px"
-                                className="object-cover object-[100%_90%]"
+                                className="object-cover object-[90%_90%]"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
 
