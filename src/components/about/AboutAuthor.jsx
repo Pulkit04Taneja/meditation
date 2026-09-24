@@ -66,18 +66,18 @@ export default function AboutAuthor() {
                     >
                         <div className="relative h-[440px] md:h-[520px] w-full rounded-3xl overflow-hidden shadow-2xl bg-[#F7F8ED] border border-[#1A2E05]/10">
                             <Image
-                                src="/images/meditation.png"
+                                src="/images/Riverside-Meditation.jpeg"
                                 alt="Meditation practice"
                                 fill
                                 sizes="(max-width: 768px) 100vw, 500px"
-                                className="object-cover"
+                                className="object-cover object-[100%_90%]"
                             />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
 
                             {/* Prominent Badge Overlay */}
-                            <div className="absolute bottom-6 left-6 right-6">
-                                <div className="bg-white/95 backdrop-blur-md p-4 rounded-2xl border border-white/20 shadow-lg text-center">
-                                    <div className="text-2xl font-serif font-bold text-[#1A2E05]">
+                            <div className="absolute bottom-4 left-4 right-4">
+                                <div className="bg-white/95 backdrop-blur-md p-3 rounded-2xl border border-white/20 shadow-lg text-center">
+                                    <div className="text-lg font-serif font-bold text-[#1A2E05]">
                                         40+ Years of Daily Practice
                                     </div>
                                     <div className="text-xs uppercase tracking-wider text-[#4A6741] font-medium mt-1">
